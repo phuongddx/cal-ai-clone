@@ -1,10 +1,17 @@
 # cal-ai-clone: Onboarding Flow Implementation
 
 ✅ Framework & Language: Swift + SwiftUI
+
 ✅ Code Quality: Write clean, maintainable, and well-structured code
+
 ✅ Animations & Transitions: Ensure smooth, fluid animations similar to the example app
+
 ✅ Pixel-Perfection vs. Best Practices: Prioritize best practices over exact pixel-matching
+
 ✅ State Management: Use SwiftUI’s native state management
+
+### Video demo: 
+![Demo](https://github.com/phuongddx/cal-ai-clone/blob/master/demo.gif)
 
 ### Your Approach to the Task
 1. I downloaded the original app from the App Store and went through the full onboarding flow to understand the ideal application flow.
@@ -28,5 +35,3 @@
 2. Handle the language switcher
 3. Create more UI for additional steps, such as: Rating, Referral Code, Some Goals, etc.
 4. Implement animations for items when they appear
-
-### Video Demo:
