@@ -59,6 +59,8 @@ struct OnboardingView: View {
                 WorkoutFrequencyView()
             case .referralSource:
                 ReferralSourceView()
+            case .thankyou:
+                ThankYouView()
             }
         }
     }

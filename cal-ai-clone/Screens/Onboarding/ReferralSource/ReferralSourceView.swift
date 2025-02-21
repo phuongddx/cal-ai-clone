@@ -11,22 +11,23 @@ struct ReferralSourceView: View {
     @StateObject private var viewModel = ReferralSourceViewModel()
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 24) {
+        VStack(alignment: .leading, spacing: 12) {
             Text("Where did you hear about us?")
                 .font(.system(size: 28, weight: .bold))
                 .padding(.horizontal)
-            VStack(spacing: 12) {
-                ForEach(ReferralSource.allCases, id: \.self) { source in
-                    ReferralSourceButton(
-                        source: source,
-                        isSelected: viewModel.selectedSource == source
-                    ) {
-                        viewModel.selectSource(source)
+            ScrollView {
+                LazyVStack(spacing: 12) {
+                    ForEach(ReferralSource.allCases, id: \.self) { source in
+                        ReferralSourceButton(
+                            source: source,
+                            isSelected: viewModel.selectedSource == source
+                        ) {
+                            viewModel.selectSource(source)
+                        }
                     }
                 }
+                .padding(.horizontal)
             }
-            .padding(.horizontal)
-            
             Spacer()
         }
     }

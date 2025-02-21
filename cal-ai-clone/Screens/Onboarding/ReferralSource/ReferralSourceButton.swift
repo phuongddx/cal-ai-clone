@@ -15,11 +15,10 @@ struct ReferralSourceButton: View {
     var body: some View {
         Button(action: action) {
             HStack(spacing: 12) {
-//                Image(source.iconName)
-//                    .resizable()
-//                    .scaledToFit()
-//                    .frame(width: 24, height: 24)
-                source.icon
+                Image(source.iconName)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 24, height: 24)
                 Text(source.rawValue)
                     .font(.system(size: 16))
                 Spacer()
@@ -27,9 +26,12 @@ struct ReferralSourceButton: View {
             .foregroundColor(isSelected ? .white : .black)
             .padding()
             .frame(maxWidth: .infinity)
-            .background(isSelected ? Color.black : Color.white)
-            .background(Color(uiColor: .systemGray6))
+            .background(isSelected ? Color.black : Color.black.opacity(0.1))
             .cornerRadius(12)
         }
     }
+}
+
+#Preview {
+    OnboardingView(currentStep: .referralSource)
 }
