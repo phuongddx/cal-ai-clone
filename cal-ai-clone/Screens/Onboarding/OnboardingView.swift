@@ -8,7 +8,11 @@
 import SwiftUI
 
 struct OnboardingView: View {
-    @State private var currentStep: OnboardingStep = .welcome
+    @State private var currentStep: OnboardingStep
+
+    init(currentStep: OnboardingStep = .welcome) {
+        self.currentStep = currentStep
+    }
 
     var body: some View {
         VStack {
@@ -51,13 +55,15 @@ struct OnboardingView: View {
                 OnboardingWelcomeView()
             case .gender:
                 GenderSelectionView()
-            default:
-                OnboardingGeneralView()
+            case .workoutPreferences:
+                WorkoutFrequencyView()
+            case .referralSource:
+                ReferralSourceView()
             }
         }
     }
 }
 
 #Preview {
-    OnboardingView()
+    OnboardingView(currentStep: .referralSource)
 }

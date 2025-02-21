@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct OnboardingPage {
-    let image: String
-    let title: String
-    let subtitle: String
-}
+//struct OnboardingPage {
+//    let image: String
+//    let title: String
+//    let subtitle: String
+//}
