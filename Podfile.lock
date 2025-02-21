@@ -1,0 +1,16 @@
+PODS:
+  - ProgressIndicatorView (1.0.0)
+
+DEPENDENCIES:
+  - ProgressIndicatorView
+
+SPEC REPOS:
+  trunk:
+    - ProgressIndicatorView
+
+SPEC CHECKSUMS:
+  ProgressIndicatorView: f37b4bdc70132ab6398da55c674c72d86d757f0e
+
+PODFILE CHECKSUM: 6f84ae728500403f0624c5ca788479d500b78669
+
+COCOAPODS: 1.15.2

@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02635AB90658A94FC6BF63B5 /* Pods_cal_ai_clone_cal_ai_cloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429639136005B25709C233F4 /* Pods_cal_ai_clone_cal_ai_cloneUITests.framework */; };
+		517FB179C515A7B967A31A99 /* Pods_cal_ai_clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B4461DDF000CF0D39E9608 /* Pods_cal_ai_clone.framework */; };
+		DB36FA1EFAA57FADDCD6F680 /* Pods_cal_ai_cloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824EF620F558DCCD2A41A78F /* Pods_cal_ai_cloneTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2E74C6C2D66203F0011D5E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2E74C532D66203C0011D5E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2E74C5A2D66203C0011D5E3;
+			remoteInfo = "cal-ai-clone";
+		};
+		F2E74C762D66203F0011D5E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2E74C532D66203C0011D5E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2E74C5A2D66203C0011D5E3;
+			remoteInfo = "cal-ai-clone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14ADF8105B60B2959F6C2E3A /* Pods-cal-ai-clone-cal-ai-cloneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cal-ai-clone-cal-ai-cloneUITests.debug.xcconfig"; path = "Target Support Files/Pods-cal-ai-clone-cal-ai-cloneUITests/Pods-cal-ai-clone-cal-ai-cloneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3755C9EECEC02EFE33589F5C /* Pods-cal-ai-clone-cal-ai-cloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cal-ai-clone-cal-ai-cloneUITests.release.xcconfig"; path = "Target Support Files/Pods-cal-ai-clone-cal-ai-cloneUITests/Pods-cal-ai-clone-cal-ai-cloneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		429639136005B25709C233F4 /* Pods_cal_ai_clone_cal_ai_cloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cal_ai_clone_cal_ai_cloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B4461DDF000CF0D39E9608 /* Pods_cal_ai_clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cal_ai_clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		824EF620F558DCCD2A41A78F /* Pods_cal_ai_cloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cal_ai_cloneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		924D4870FAF62E893A3E8C7D /* Pods-cal-ai-clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cal-ai-clone.release.xcconfig"; path = "Target Support Files/Pods-cal-ai-clone/Pods-cal-ai-clone.release.xcconfig"; sourceTree = "<group>"; };
+		DD3248CDBCA0AE0DA712329A /* Pods-cal-ai-clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cal-ai-clone.debug.xcconfig"; path = "Target Support Files/Pods-cal-ai-clone/Pods-cal-ai-clone.debug.xcconfig"; sourceTree = "<group>"; };
+		E377DFC0D6C6951DDA79121C /* Pods-cal-ai-cloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cal-ai-cloneTests.release.xcconfig"; path = "Target Support Files/Pods-cal-ai-cloneTests/Pods-cal-ai-cloneTests.release.xcconfig"; sourceTree = "<group>"; };
+		F2E74C5B2D66203C0011D5E3 /* cal-ai-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cal-ai-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E74C6B2D66203F0011D5E3 /* cal-ai-cloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cal-ai-cloneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E74C752D66203F0011D5E3 /* cal-ai-cloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cal-ai-cloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72D4897ED1FA4B048C9DACA /* Pods-cal-ai-cloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cal-ai-cloneTests.debug.xcconfig"; path = "Target Support Files/Pods-cal-ai-cloneTests/Pods-cal-ai-cloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F2E74C5D2D66203C0011D5E3 /* cal-ai-clone */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "cal-ai-clone";
+			sourceTree = "<group>";
+		};
+		F2E74C6E2D66203F0011D5E3 /* cal-ai-cloneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "cal-ai-cloneTests";
+			sourceTree = "<group>";
+		};
+		F2E74C782D66203F0011D5E3 /* cal-ai-cloneUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "cal-ai-cloneUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2E74C582D66203C0011D5E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517FB179C515A7B967A31A99 /* Pods_cal_ai_clone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E74C682D66203F0011D5E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB36FA1EFAA57FADDCD6F680 /* Pods_cal_ai_cloneTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E74C722D66203F0011D5E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02635AB90658A94FC6BF63B5 /* Pods_cal_ai_clone_cal_ai_cloneUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8B29225633815E82DA55B49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD3248CDBCA0AE0DA712329A /* Pods-cal-ai-clone.debug.xcconfig */,
+				924D4870FAF62E893A3E8C7D /* Pods-cal-ai-clone.release.xcconfig */,
+				14ADF8105B60B2959F6C2E3A /* Pods-cal-ai-clone-cal-ai-cloneUITests.debug.xcconfig */,
+				3755C9EECEC02EFE33589F5C /* Pods-cal-ai-clone-cal-ai-cloneUITests.release.xcconfig */,
+				F72D4897ED1FA4B048C9DACA /* Pods-cal-ai-cloneTests.debug.xcconfig */,
+				E377DFC0D6C6951DDA79121C /* Pods-cal-ai-cloneTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F2E74C522D66203C0011D5E3 = {
+			isa = PBXGroup;
+			children = (
+				F2E74C5D2D66203C0011D5E3 /* cal-ai-clone */,
+				F2E74C6E2D66203F0011D5E3 /* cal-ai-cloneTests */,
+				F2E74C782D66203F0011D5E3 /* cal-ai-cloneUITests */,
+				F2E74C5C2D66203C0011D5E3 /* Products */,
+				D8B29225633815E82DA55B49 /* Pods */,
+				FED5A23E2800B481F9319999 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2E74C5C2D66203C0011D5E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2E74C5B2D66203C0011D5E3 /* cal-ai-clone.app */,
+				F2E74C6B2D66203F0011D5E3 /* cal-ai-cloneTests.xctest */,
+				F2E74C752D66203F0011D5E3 /* cal-ai-cloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FED5A23E2800B481F9319999 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52B4461DDF000CF0D39E9608 /* Pods_cal_ai_clone.framework */,
+				429639136005B25709C233F4 /* Pods_cal_ai_clone_cal_ai_cloneUITests.framework */,
+				824EF620F558DCCD2A41A78F /* Pods_cal_ai_cloneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2E74C5A2D66203C0011D5E3 /* cal-ai-clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E74C7F2D66203F0011D5E3 /* Build configuration list for PBXNativeTarget "cal-ai-clone" */;
+			buildPhases = (
+				2F1F8D59EC7A7C3314ACD2AA /* [CP] Check Pods Manifest.lock */,
+				F2E74C572D66203C0011D5E3 /* Sources */,
+				F2E74C582D66203C0011D5E3 /* Frameworks */,
+				F2E74C592D66203C0011D5E3 /* Resources */,
+				51D5756E634C8639E51B4835 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F2E74C5D2D66203C0011D5E3 /* cal-ai-clone */,
+			);
+			name = "cal-ai-clone";
+			productName = "cal-ai-clone";
+			productReference = F2E74C5B2D66203C0011D5E3 /* cal-ai-clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2E74C6A2D66203F0011D5E3 /* cal-ai-cloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E74C822D66203F0011D5E3 /* Build configuration list for PBXNativeTarget "cal-ai-cloneTests" */;
+			buildPhases = (
+				AF117D9F0F99F870C448A594 /* [CP] Check Pods Manifest.lock */,
+				F2E74C672D66203F0011D5E3 /* Sources */,
+				F2E74C682D66203F0011D5E3 /* Frameworks */,
+				F2E74C692D66203F0011D5E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2E74C6D2D66203F0011D5E3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F2E74C6E2D66203F0011D5E3 /* cal-ai-cloneTests */,
+			);
+			name = "cal-ai-cloneTests";
+			productName = "cal-ai-cloneTests";
+			productReference = F2E74C6B2D66203F0011D5E3 /* cal-ai-cloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2E74C742D66203F0011D5E3 /* cal-ai-cloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E74C852D66203F0011D5E3 /* Build configuration list for PBXNativeTarget "cal-ai-cloneUITests" */;
+			buildPhases = (
+				62F35288617D702B18611B25 /* [CP] Check Pods Manifest.lock */,
+				F2E74C712D66203F0011D5E3 /* Sources */,
+				F2E74C722D66203F0011D5E3 /* Frameworks */,
+				F2E74C732D66203F0011D5E3 /* Resources */,
+				D892F4D87D6D162B32989C80 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2E74C772D66203F0011D5E3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F2E74C782D66203F0011D5E3 /* cal-ai-cloneUITests */,
+			);
+			name = "cal-ai-cloneUITests";
+			productName = "cal-ai-cloneUITests";
+			productReference = F2E74C752D66203F0011D5E3 /* cal-ai-cloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2E74C532D66203C0011D5E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					F2E74C5A2D66203C0011D5E3 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					F2E74C6A2D66203F0011D5E3 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = F2E74C5A2D66203C0011D5E3;
+					};
+					F2E74C742D66203F0011D5E3 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = F2E74C5A2D66203C0011D5E3;
+					};
+				};
+			};
+			buildConfigurationList = F2E74C562D66203C0011D5E3 /* Build configuration list for PBXProject "cal-ai-clone" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2E74C522D66203C0011D5E3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F2E74C5C2D66203C0011D5E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2E74C5A2D66203C0011D5E3 /* cal-ai-clone */,
+				F2E74C6A2D66203F0011D5E3 /* cal-ai-cloneTests */,
+				F2E74C742D66203F0011D5E3 /* cal-ai-cloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2E74C592D66203C0011D5E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E74C692D66203F0011D5E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E74C732D66203F0011D5E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F1F8D59EC7A7C3314ACD2AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cal-ai-clone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51D5756E634C8639E51B4835 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cal-ai-clone/Pods-cal-ai-clone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cal-ai-clone/Pods-cal-ai-clone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cal-ai-clone/Pods-cal-ai-clone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62F35288617D702B18611B25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cal-ai-clone-cal-ai-cloneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF117D9F0F99F870C448A594 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cal-ai-cloneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D892F4D87D6D162B32989C80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cal-ai-clone-cal-ai-cloneUITests/Pods-cal-ai-clone-cal-ai-cloneUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cal-ai-clone-cal-ai-cloneUITests/Pods-cal-ai-clone-cal-ai-cloneUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cal-ai-clone-cal-ai-cloneUITests/Pods-cal-ai-clone-cal-ai-cloneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2E74C572D66203C0011D5E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E74C672D66203F0011D5E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E74C712D66203F0011D5E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2E74C6D2D66203F0011D5E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2E74C5A2D66203C0011D5E3 /* cal-ai-clone */;
+			targetProxy = F2E74C6C2D66203F0011D5E3 /* PBXContainerItemProxy */;
+		};
+		F2E74C772D66203F0011D5E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2E74C5A2D66203C0011D5E3 /* cal-ai-clone */;
+			targetProxy = F2E74C762D66203F0011D5E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F2E74C7D2D66203F0011D5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2E74C7E2D66203F0011D5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2E74C802D66203F0011D5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD3248CDBCA0AE0DA712329A /* Pods-cal-ai-clone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cal-ai-clone/Preview Content\"";
+				DEVELOPMENT_TEAM = K2TYLYAWMK;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cal-ai-clone.com.cal-ai-clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F2E74C812D66203F0011D5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 924D4870FAF62E893A3E8C7D /* Pods-cal-ai-clone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cal-ai-clone/Preview Content\"";
+				DEVELOPMENT_TEAM = K2TYLYAWMK;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cal-ai-clone.com.cal-ai-clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F2E74C832D66203F0011D5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F72D4897ED1FA4B048C9DACA /* Pods-cal-ai-cloneTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2TYLYAWMK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cal-ai-clone.com.cal-ai-cloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cal-ai-clone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cal-ai-clone";
+			};
+			name = Debug;
+		};
+		F2E74C842D66203F0011D5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E377DFC0D6C6951DDA79121C /* Pods-cal-ai-cloneTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2TYLYAWMK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cal-ai-clone.com.cal-ai-cloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cal-ai-clone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cal-ai-clone";
+			};
+			name = Release;
+		};
+		F2E74C862D66203F0011D5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14ADF8105B60B2959F6C2E3A /* Pods-cal-ai-clone-cal-ai-cloneUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2TYLYAWMK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cal-ai-clone.com.cal-ai-cloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cal-ai-clone";
+			};
+			name = Debug;
+		};
+		F2E74C872D66203F0011D5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3755C9EECEC02EFE33589F5C /* Pods-cal-ai-clone-cal-ai-cloneUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2TYLYAWMK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cal-ai-clone.com.cal-ai-cloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cal-ai-clone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2E74C562D66203C0011D5E3 /* Build configuration list for PBXProject "cal-ai-clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E74C7D2D66203F0011D5E3 /* Debug */,
+				F2E74C7E2D66203F0011D5E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E74C7F2D66203F0011D5E3 /* Build configuration list for PBXNativeTarget "cal-ai-clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E74C802D66203F0011D5E3 /* Debug */,
+				F2E74C812D66203F0011D5E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E74C822D66203F0011D5E3 /* Build configuration list for PBXNativeTarget "cal-ai-cloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E74C832D66203F0011D5E3 /* Debug */,
+				F2E74C842D66203F0011D5E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E74C852D66203F0011D5E3 /* Build configuration list for PBXNativeTarget "cal-ai-cloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E74C862D66203F0011D5E3 /* Debug */,
+				F2E74C872D66203F0011D5E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2E74C532D66203C0011D5E3 /* Project object */;
+}
