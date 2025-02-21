@@ -49,6 +49,8 @@ struct OnboardingView: View {
             switch currentStep {
             case .welcome:
                 OnboardingWelcomeView()
+            case .gender:
+                GenderSelectionView()
             default:
                 OnboardingGeneralView()
             }

@@ -11,4 +11,11 @@ enum OnboardingStep: String, CaseIterable {
     case gender = "Choose Gender"
     case workoutPreferences = "Workout Preferences"
     case referralSource = "How Did You Find Us?"
+
+    var datas: Any? {
+        switch self {
+        default:
+            return OnboardGeneralData.genderSelectionData
+        }
+    }
 }
