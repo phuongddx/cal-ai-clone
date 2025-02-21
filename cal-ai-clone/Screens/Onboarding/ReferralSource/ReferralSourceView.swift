@@ -24,6 +24,8 @@ struct ReferralSourceView: View {
                         ) {
                             viewModel.selectSource(source)
                         }
+                        .transition(.move(edge: .trailing).combined(with: .opacity))
+                        .animation(.spring(response: 0.5, dampingFraction: 0.7), value: viewModel.selectedSource)
                     }
                 }
                 .padding(.horizontal)

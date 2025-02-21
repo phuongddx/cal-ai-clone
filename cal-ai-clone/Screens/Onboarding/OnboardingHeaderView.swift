@@ -9,7 +9,7 @@ import SwiftUI
 
 struct OnboardingHeaderView: View {
     let onBack: () -> Void
-    let progress: CGFloat = 0.3
+    @Binding var progress: CGFloat
     @State private var selectedLanguage: String = "EN"
 
     var body: some View {
@@ -25,12 +25,11 @@ struct OnboardingHeaderView: View {
                             .foregroundColor(.black)
                     )
             }
-            
-            // Progress View
             ProgressView(value: progress)
                 .progressViewStyle(.linear)
                 .tint(.black)
                 .padding(.horizontal)
+                .animation(.easeInOut, value: progress)
             
             // Language Switcher
             Button(action: {

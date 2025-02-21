@@ -47,16 +47,22 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F2E74C5D2D66203C0011D5E3 /* cal-ai-clone */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "cal-ai-clone";
 			sourceTree = "<group>";
 		};
 		F2E74C6E2D66203F0011D5E3 /* cal-ai-cloneTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "cal-ai-cloneTests";
 			sourceTree = "<group>";
 		};
 		F2E74C782D66203F0011D5E3 /* cal-ai-cloneUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "cal-ai-cloneUITests";
 			sourceTree = "<group>";
 		};
@@ -146,7 +152,6 @@
 				F2E74C572D66203C0011D5E3 /* Sources */,
 				F2E74C582D66203C0011D5E3 /* Frameworks */,
 				F2E74C592D66203C0011D5E3 /* Resources */,
-				51D5756E634C8639E51B4835 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -190,7 +195,6 @@
 				F2E74C712D66203F0011D5E3 /* Sources */,
 				F2E74C722D66203F0011D5E3 /* Frameworks */,
 				F2E74C732D66203F0011D5E3 /* Resources */,
-				D892F4D87D6D162B32989C80 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -296,23 +300,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		51D5756E634C8639E51B4835 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cal-ai-clone/Pods-cal-ai-clone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cal-ai-clone/Pods-cal-ai-clone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cal-ai-clone/Pods-cal-ai-clone-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		62F35288617D702B18611B25 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -355,23 +342,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D892F4D87D6D162B32989C80 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cal-ai-clone-cal-ai-cloneUITests/Pods-cal-ai-clone-cal-ai-cloneUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cal-ai-clone-cal-ai-cloneUITests/Pods-cal-ai-clone-cal-ai-cloneUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cal-ai-clone-cal-ai-cloneUITests/Pods-cal-ai-clone-cal-ai-cloneUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

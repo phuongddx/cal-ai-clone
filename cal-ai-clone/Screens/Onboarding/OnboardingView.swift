@@ -9,6 +9,7 @@ import SwiftUI
 
 struct OnboardingView: View {
     @State private var currentStep: OnboardingStep
+    @State private var currentProgress: CGFloat = 0.1
 
     init(currentStep: OnboardingStep = .welcome) {
         self.currentStep = currentStep
@@ -17,9 +18,9 @@ struct OnboardingView: View {
     var body: some View {
         VStack {
             if currentStep != .welcome {
-                OnboardingHeaderView {
+                OnboardingHeaderView(onBack: {
                     handlePrevTapped()
-                }
+                }, progress: $currentProgress)
             }
             ContentView(currentStep: currentStep)
             OnboardingFooterView {
@@ -28,7 +29,17 @@ struct OnboardingView: View {
         }
         .background(Color.white)
         .animation(.easeInOut, value: currentStep)
+        .onChange(of: currentStep) { newStep in
+            updateProgress(for: newStep)
+        }
     }
+
+    private func updateProgress(for step: OnboardingStep) {
+       let allCases = OnboardingStep.allCases
+       if let index = allCases.firstIndex(of: step) {
+           currentProgress = CGFloat(index) / CGFloat(allCases.count - 1)
+       }
+   }
 
     private func handleNextTapped() {
         let allCases = OnboardingStep.allCases
@@ -67,5 +78,5 @@ struct OnboardingView: View {
 }
 
 #Preview {
-    OnboardingView(currentStep: .referralSource)
+    OnboardingView(currentStep: .welcome)
 }

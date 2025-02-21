@@ -6,8 +6,6 @@ target 'cal-ai-clone' do
   use_frameworks!
 
   # Pods for cal-ai-clone
-  pod 'ProgressIndicatorView'
-  pod 'SwiftUIFontIcon'
 
   target 'cal-ai-cloneTests' do
     inherit! :search_paths

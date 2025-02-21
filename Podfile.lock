@@ -1,20 +1,3 @@
-PODS:
-  - ProgressIndicatorView (1.0.0)
-  - SwiftUIFontIcon (2.1.0)
-
-DEPENDENCIES:
-  - ProgressIndicatorView
-  - SwiftUIFontIcon
-
-SPEC REPOS:
-  trunk:
-    - ProgressIndicatorView
-    - SwiftUIFontIcon
-
-SPEC CHECKSUMS:
-  ProgressIndicatorView: f37b4bdc70132ab6398da55c674c72d86d757f0e
-  SwiftUIFontIcon: f2b3b55c3cb04255ad3ac11584481f950c3976ad
-
-PODFILE CHECKSUM: a032b07fbe35e83ec1a5cb099a80c14a430e2356
+PODFILE CHECKSUM: bb8c0985f412fc13d8742215510af630fda5eafc
 
 COCOAPODS: 1.15.2
